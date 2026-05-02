@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ITパスポート【マネジメント】 確認問題集２</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
+        h1 { text-align: center; color: #333; border-bottom: 2px solid #333; }
+        h2 { background-color: #333; color: #fff; padding: 10px; margin-top: 30px; border-radius: 5px; }
+        .question { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .question p { font-weight: bold; margin-bottom: 10px; }
+        .options label { display: block; margin-bottom: 8px; cursor: pointer; }
+        .explanation { display: none; margin-top: 15px; padding: 15px; border-radius: 5px; font-size: 0.9em; }
+        .correct { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .incorrect { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        .footer { text-align: center; margin: 40px 0; }
+        button { padding: 15px 30px; font-size: 1.2em; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px; }
+        button:hover { background-color: #0056b3; }
+        #result { text-align: center; font-size: 1.5em; font-weight: bold; margin: 20px 0; color: #333; }
+    </style>
+</head>
+<body>
+
+<h1>ITパスポート確認テスト（9-05 ～ 9-08）</h1>
+<div id="result"></div>
+
+<form id="quizForm">
+    <!-- 9-05 労働関連・取引関連法規 (23問) -->
+    <h2>９－０５ 労働関連・取引関連法規</h2>
+
+    <div class="question" id="q1">
+        <p>1. 賃金や労働時間、休息、休暇など、労働者の労働条件の最低基準を定めた法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q1" value="A"> 公益通報者保護法</label>
+            <label><input type="radio" name="q1" value="B"> 労働契約法</label>
+            <label><input type="radio" name="q1" value="C"> 労働者派遣法</label>
+            <label><input type="radio" name="q1" value="D"> 労働基準法</label>
+        </div>
+        <div class="explanation" id="exp1">正解: D <br>解説：労働基準法は、労働条件の最低基準を定めた法律です。</div>
+    </div>
+
+    <div class="question" id="q2">
+        <p>2. 労働者と使用者が対等の立場で労働条件について合意し、労働契約を締結することを定めた法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q2" value="A"> 労働基準法</label>
+            <label><input type="radio" name="q2" value="B"> 労働者派遣法</label>
+            <label><input type="radio" name="q2" value="C"> 製造物責任法</label>
+            <label><input type="radio" name="q2" value="D"> 労働契約法</label>
+        </div>
+        <div class="explanation" id="exp2">正解: D <br>解説：労働契約法は、労働契約の締結や変更についてのルールを定めた法律です。</div>
+    </div>
+
+    <div class="question" id="q3">
+        <p>3. 派遣労働者を保護するための規定を定めた法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q3" value="A"> 請負契約</label>
+            <label><input type="radio" name="q3" value="B"> 労働基準法</label>
+            <label><input type="radio" name="q3" value="C"> 労働者派遣法</label>
+            <label><input type="radio" name="q3" value="D"> 契約不適合責任</label>
+        </div>
+        <div class="explanation" id="exp3">正解: C <br>解説：派遣労働者の権利と労働条件を保護するのは労働者派遣法です。</div>
+    </div>
+
+    <div class="question" id="q4">
+        <p>4. 公益のために内部告発した労働者が、解雇などの不利益な扱いを受けないように保護する法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q4" value="A"> 製造物責任法</label>
+            <label><input type="radio" name="q4" value="B"> 労働契約法</label>
+            <label><input type="radio" name="q4" value="C"> 公益通報者保護法</label>
+            <label><input type="radio" name="q4" value="D"> 労働基準法</label>
+        </div>
+        <div class="explanation" id="exp4">正解: C <br>解説：不正を告発した人を守るのが公益通報者保護法です。</div>
+    </div>
+
+    <div class="question" id="q5">
+        <p>5. 所定の労働時間を満たしていれば、始業や就業時間を定時からずらしてよいとする制度はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q5" value="A"> 企画業務型裁量労働制</label>
+            <label><input type="radio" name="q5" value="B"> フレックスタイム</label>
+            <label><input type="radio" name="q5" value="C"> テレワーク</label>
+            <label><input type="radio" name="q5" value="D"> 専門業務型裁量労働制</label>
+        </div>
+        <div class="explanation" id="exp5">正解: B <br>解説：フレックスタイム制は、始業・終業時刻を労働者が選べる制度です。</div>
+    </div>
+
+    <div class="question" id="q6">
+        <p>6. ICTを活用して、時間や場所の制約を受けない柔軟な働き方はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q6" value="A"> 専門業務型裁量労働制</label>
+            <label><input type="radio" name="q6" value="B"> 請負契約</label>
+            <label><input type="radio" name="q6" value="C"> フレックスタイム</label>
+            <label><input type="radio" name="q6" value="D"> テレワーク</label>
+        </div>
+        <div class="explanation" id="exp6">正解: D <br>解説：テレワークは、遠隔地からITを使って働くスタイルです。</div>
+    </div>
+
+    <div class="question" id="q7">
+        <p>7. 研究者やデザイナー、SEなどの専門的な業種対象で、労働者の裁量で労働時間を決められる制度はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q7" value="A"> フレックスタイム</label>
+            <label><input type="radio" name="q7" value="B"> 企画業務型裁量労働制</label>
+            <label><input type="radio" name="q7" value="C"> 専門業務型裁量労働制</label>
+            <label><input type="radio" name="q7" value="D"> テレワーク</label>
+        </div>
+        <div class="explanation" id="exp7">正解: C <br>解説：特定の専門職において、実際の労働時間に関わらず、みなし労働時間を適用する制度です。</div>
+    </div>
+
+    <div class="question" id="q8">
+        <p>8. 事業運営、企画業務などに従事する人が対象となる、労働者の裁量で労働時間を決められる制度はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q8" value="A"> 専門業務型裁量労働制</label>
+            <label><input type="radio" name="q8" value="B"> フレックスタイム</label>
+            <label><input type="radio" name="q8" value="C"> 企画業務型裁量労働制</label>
+            <label><input type="radio" name="q8" value="D"> テレワーク</label>
+        </div>
+        <div class="explanation" id="exp8">正解: C <br>解説：企業の根幹に関わる企画・立案を行う業務が対象です。</div>
+    </div>
+
+    <div class="question" id="q9">
+        <p>9. 労働者が、派遣元企業との雇用関係とは別に、派遣先企業の指揮命令を受ける契約はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q9" value="A"> 紹介予定派遣</label>
+            <label><input type="radio" name="q9" value="B"> 契約不適合責任</label>
+            <label><input type="radio" name="q9" value="C"> 請負契約</label>
+            <label><input type="radio" name="q9" value="D"> 労働者派遣契約</label>
+        </div>
+        <div class="explanation" id="exp9">正解: D <br>解説：派遣は、雇用主（派遣元）と指揮命令者（派遣先）が分離しています。</div>
+    </div>
+
+    <div class="question" id="q10">
+        <p>10. 将来直接雇用があることを前提とする形態の派遣はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q10" value="A"> 紹介予定派遣</label>
+            <label><input type="radio" name="q10" value="B"> 請負契約</label>
+            <label><input type="radio" name="q10" value="C"> 契約不適合責任</label>
+            <label><input type="radio" name="q10" value="D"> 労働者派遣契約</label>
+        </div>
+        <div class="explanation" id="exp10">正解: A <br>解説：一定期間（最長6ヶ月）の派遣後、双方が合意すれば正社員等として雇用されます。</div>
+    </div>
+
+    <div class="question" id="q11">
+        <p>11. 請け負った仕事を期日までに完成させることを約束して、成果物に対して対価を支払う契約はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q11" value="A"> 請負契約</label>
+            <label><input type="radio" name="q11" value="B"> 契約不適合責任</label>
+            <label><input type="radio" name="q11" value="C"> 紹介予定派遣</label>
+            <label><input type="radio" name="q11" value="D"> 労働者派遣契約</label>
+        </div>
+        <div class="explanation" id="exp11">正解: A <br>解説：請負は、成果物の「完成」が目的であり、指揮命令は受注者が行います。</div>
+    </div>
+
+    <div class="question" id="q12">
+        <p>12. 請け負った仕事が契約の内容に合わないときに負う責任はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q12" value="A"> 請負契約</label>
+            <label><input type="radio" name="q12" value="B"> 契約不適合責任</label>
+            <label><input type="radio" name="q12" value="C"> 労働者派遣契約</label>
+            <label><input type="radio" name="q12" value="D"> 紹介予定派遣</label>
+        </div>
+        <div class="explanation" id="exp12">正解: B <br>解説：納品物が契約内容と異なる（種類・品質・数量など）場合に負う責任です。</div>
+    </div>
+
+    <div class="question" id="q13">
+        <p>13. 製造物の欠陥が原因で人的被害が生じた場合の損害賠償の責任について定めた法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q13" value="A"> 契約不適合責任</label>
+            <label><input type="radio" name="q13" value="B"> 製造物責任法（PL法）</label>
+            <label><input type="radio" name="q13" value="C"> 請負契約</label>
+            <label><input type="radio" name="q13" value="D"> 労働基準法</label>
+        </div>
+        <div class="explanation" id="exp13">正解: B <br>解説：製品に欠陥があった場合、メーカーの過失を問わず被害者を救済する法律です。</div>
+    </div>
+
+    <div class="question" id="q14">
+        <p>14. 下請法改正により、適用対象が資本金基準から従業員数基準へ拡大し、運送取引も追加された法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q14" value="A"> 中小受託取引適正化法（取適法）</label>
+            <label><input type="radio" name="q14" value="B"> 労働契約法</label>
+            <label><input type="radio" name="q14" value="C"> 労働基準法</label>
+            <label><input type="radio" name="q14" value="D"> 製造物責任法</label>
+        </div>
+        <div class="explanation" id="exp14">正解: A <br>解説：親事業者の優越的地位の濫用を防ぎ、下請け業者を守る法律です。2026年1月1日施行。</div>
+    </div>
+
+    <div class="question" id="q15">
+        <p>15. 訪問販売や通信販売など、消費者トラブルが発生しやすい取引において消費者保護を目的とした法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q15" value="A"> 景品表示法</label>
+            <label><input type="radio" name="q15" value="B"> 製造物責任法</label>
+            <label><input type="radio" name="q15" value="C"> 特定商取引法</label>
+            <label><input type="radio" name="q15" value="D"> 消費者契約法</label>
+        </div>
+        <div class="explanation" id="exp15">正解: C <br>解説：クーリングオフ制度などが定められています。</div>
+    </div>
+
+    <div class="question" id="q16">
+        <p>16. 消費者を誤認させるような過大広告や虚偽表示を規制する法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q16" value="A"> 下請法</label>
+            <label><input type="radio" name="q16" value="B"> 製造物責任法</label>
+            <label><input type="radio" name="q16" value="C"> 景品表示法</label>
+            <label><input type="radio" name="q16" value="D"> 労働契約法</label>
+        </div>
+        <div class="explanation" id="exp16">正解: C <br>解説：実際よりも著しく優良、または有利だと偽る表示を禁じています。</div>
+    </div>
+
+    <div class="question" id="q17">
+        <p>17. 資源の分別回収や再資源化を推進するために制定された法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q17" value="A"> 労働基準法</label>
+            <label><input type="radio" name="q17" value="B"> 下請法</label>
+            <label><input type="radio" name="q17" value="C"> 製造物責任法</label>
+            <label><input type="radio" name="q17" value="D"> リサイクル法</label>
+        </div>
+        <div class="explanation" id="exp17">正解: D <br>解説：資源有効利用促進法などの総称です。</div>
+    </div>
+
+    <div class="question" id="q18">
+        <p>18. 電子マネーやプリペイドカードの発行・管理に関する法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q18" value="A"> 労働契約法</label>
+            <label><input type="radio" name="q18" value="B"> 資金決済法</label>
+            <label><input type="radio" name="q18" value="C"> 下請法</label>
+            <label><input type="radio" name="q18" value="D"> 景品表示法</label>
+        </div>
+        <div class="explanation" id="exp18">正解: B <br>解説：IT技術を利用した決済サービスの安全性を守る法律です。</div>
+    </div>
+
+    <div class="question" id="q19">
+        <p>19. 有価証券や金融商品の発行・売買において、投資者保護や公正な取引を目的として定められた法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q19" value="A"> 消費者契約法</label>
+            <label><input type="radio" name="q19" value="B"> 下請法</label>
+            <label><input type="radio" name="q19" value="C"> 金融商品取引法</label>
+            <label><input type="radio" name="q19" value="D"> 資金決済法</label>
+        </div>
+        <div class="explanation" id="exp19">正解: C <br>解説：インサイダー取引の禁止などもこの法律に含まれます。</div>
+    </div>
+
+    <div class="question" id="q20">
+        <p>20. 国や自治体の行政機関が保有する資料の原則公開を義務付けた法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q20" value="A"> 製造物責任法</label>
+            <label><input type="radio" name="q20" value="B"> 資金決済法</label>
+            <label><input type="radio" name="q20" value="C"> 消費者契約法</label>
+            <label><input type="radio" name="q20" value="D"> 情報公開法</label>
+        </div>
+        <div class="explanation" id="exp20">正解: D <br>解説：行政の透明性を確保するための法律です。</div>
+    </div>
+
+    <div class="question" id="q21">
+        <p>21. 不正な販売行為を防ぐために，正当な理由なく映像ソフトのコピープロテクトを無効化するプログラムの販売行為を規制している法律はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q21" value="A"> 商標法</label>
+            <label><input type="radio" name="q21" value="B"> 特定商取引法</label>
+            <label><input type="radio" name="q21" value="C"> 不正アクセス禁止法</label>
+            <label><input type="radio" name="q21" value="D"> 不正競争防止法</label>
+        </div>
+        <div class="explanation" id="exp21">正解: D <br>解説：アクセスコントロールを回避する装置の提供は、不正競争防止法で禁じられています。</div>
+    </div>
+
+    <div class="question" id="q22">
+        <p>22. 労働者派遣における派遣労働者の雇用関係に関する記述のうち，適切なものはどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q22" value="A"> 派遣先との間に雇用関係があり，派遣元との間には存在しない。</label>
+            <label><input type="radio" name="q22" value="B"> 派遣元との間に雇用関係があり，派遣先との間には存在しない。</label>
+            <label><input type="radio" name="q22" value="C"> 派遣元と派遣先のいずれの間にも雇用関係が存在する。</label>
+            <label><input type="radio" name="q22" value="D"> 派遣元と派遣先のいずれの間にも雇用関係は存在しない。</label>
+        </div>
+        <div class="explanation" id="exp22">正解: B <br>解説：雇用契約は派遣元会社と結びます。指揮命令を受けるのが派遣先です。</div>
+    </div>
+
+    <div class="question" id="q23">
+        <p>23. A社がB社に作業の一部を請負契約で委託している。発注者（A社）が直接労働者に指示を出すなど、実態が派遣と同じになっている違法な状態を何と呼ぶか。</p>
+        <div class="options">
+            <label><input type="radio" name="q23" value="A"> 偽装請負</label>
+            <label><input type="radio" name="q23" value="B"> 二重派遣</label>
+            <label><input type="radio" name="q23" value="C"> 労働基準法違反</label>
+            <label><input type="radio" name="q23" value="D"> 委任契約違反</label>
+        </div>
+        <div class="explanation" id="exp23">正解: A <br>解説：請負なのに発注者が直接指示を出すことは禁じられています。</div>
+    </div>
+
+    <!-- 9-06 業務分析 (18問) -->
+    <h2>９－０６ 業務分析手法</h2>
+
+    <div class="question" id="q24">
+        <p>24. 特性がどのような要因で引き起こされたかを、魚の骨のような図で体系的にまとめた図はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q24" value="A"> パレート図</label>
+            <label><input type="radio" name="q24" value="B"> ヒストグラム</label>
+            <label><input type="radio" name="q24" value="C"> 散布図</label>
+            <label><input type="radio" name="q24" value="D"> 特性要因図</label>
+        </div>
+        <div class="explanation" id="exp24">正解: D <br>解説：フィッシュボーンチャートとも呼ばれ、原因分析に使われます。</div>
+    </div>
+
+    <div class="question" id="q25">
+        <p>25. 項目を大きさの順に並べた棒グラフと、その累積比率を表す折れ線グラフを組み合わせた図はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q25" value="A"> 管理図</label>
+            <label><input type="radio" name="q25" value="B"> パレート図</label>
+            <label><input type="radio" name="q25" value="C"> 箱ひげ図</label>
+            <label><input type="radio" name="q25" value="D"> ヒストグラム</label>
+        </div>
+        <div class="explanation" id="exp25">正解: B <br>解説：重要な少数項目を特定するために使われます。</div>
+    </div>
+
+    <div class="question" id="q26">
+        <p>26. パレート図を利用し、項目をA・B・Cの3つのグループに分類して管理の重点を絞る分析手法はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q26" value="A"> 散布図</label>
+            <label><input type="radio" name="q26" value="B"> 回帰分析</label>
+            <label><input type="radio" name="q26" value="C"> ヒートマップ</label>
+            <label><input type="radio" name="q26" value="D"> ABC分析</label>
+        </div>
+        <div class="explanation" id="exp26">正解: D <br>解説：在庫管理や売上分析などで、重要度に応じた管理を行う手法です。</div>
+    </div>
+
+    <div class="question" id="q27">
+        <p>27. 連続するデータをいくつかの区間に分け、各区間に属するデータの個数を棒グラフで表した度数分布図はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q27" value="A"> 箱ひげ図</label>
+            <label><input type="radio" name="q27" value="B"> マトリックス図</label>
+            <label><input type="radio" name="q27" value="C"> ヒストグラム</label>
+            <label><input type="radio" name="q27" value="D"> 特性要因図</label>
+        </div>
+        <div class="explanation" id="exp27">正解: C <br>解説：データのばらつき（分布）を視覚化します。</div>
+    </div>
+
+    <div class="question" id="q28">
+        <p>28. 最大値、最小値、中央値、四分位数など、データの分布を長方形の箱とひげで表した図はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q28" value="A"> モザイク図</label>
+            <label><input type="radio" name="q28" value="B"> 管理図</label>
+            <label><input type="radio" name="q28" value="C"> 箱ひげ図</label>
+            <label><input type="radio" name="q28" value="D"> ヒートマップ</label>
+        </div>
+        <div class="explanation" id="exp28">正解: C <br>解説：複数のデータの分布を比較するのに適しています。</div>
+    </div>
+
+    <div class="question" id="q29">
+        <p>29. 中心線と管理限界線を引き、工程が安定しているかどうかを判定するための折れ線グラフはどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q29" value="A"> 特性要因図</label>
+            <label><input type="radio" name="q29" value="B"> ヒストグラム</label>
+            <label><input type="radio" name="q29" value="C"> 箱ひげ図</label>
+            <label><input type="radio" name="q29" value="D"> 管理図</label>
+        </div>
+        <div class="explanation" id="exp29">正解: D <br>解説：製造現場などで異常検知に使われます。</div>
+    </div>
+
+    <div class="question" id="q30">
+        <p>30. 数値の大小を色の濃淡などで表現し、一目でデータの特徴を把握できるようにした表はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q30" value="A"> 箱ひげ図</label>
+            <label><input type="radio" name="q30" value="B"> ヒートマップ</label>
+            <label><input type="radio" name="q30" value="C"> 散布図</label>
+            <label><input type="radio" name="q30" value="D"> パレート図</label>
+        </div>
+        <div class="explanation" id="exp30">正解: B <br>解説：Webページのクリックエリア分析などでよく使われます。</div>
+    </div>
+
+    <div class="question" id="q31">
+        <p>31. 2種類のデータの相関関係を、縦軸と横軸の座標上にプロットして表した図はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q31" value="A"> 散布図</label>
+            <label><input type="radio" name="q31" value="B"> モザイク図</label>
+            <label><input type="radio" name="q31" value="C"> ヒートマップ</label>
+            <label><input type="radio" name="q31" value="D"> パレート図</label>
+        </div>
+        <div class="explanation" id="exp31">正解: A <br>解説：右肩上がりなら正の相関、右肩下がりなら負の相関があると言えます。</div>
+    </div>
+
+    <div class="question" id="q32">
+        <p>32. 2種類のデータ間の関連性の強さを -1 から 1 の範囲で示す数値はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q32" value="A"> 説明変数</label>
+            <label><input type="radio" name="q32" value="B"> 目的変数</label>
+            <label><input type="radio" name="q32" value="C"> 回帰分析</label>
+            <label><input type="radio" name="q32" value="D"> 相関係数</label>
+        </div>
+        <div class="explanation" id="exp32">正解: D <br>解説：1に近いほど強い正の相関、-1に近いほど強い負の相関を意味します。</div>
+    </div>
+
+    <div class="question" id="q33">
+        <p>33. 回帰分析において、予測したい方の要素（結果となる値）を何と呼ぶか。</p>
+        <div class="options">
+            <label><input type="radio" name="q33" value="A"> 目的変数</label>
+            <label><input type="radio" name="q33" value="B"> 相関係数</label>
+            <label><input type="radio" name="q33" value="C"> 説明変数</label>
+            <label><input type="radio" name="q33" value="D"> 標準偏差</label>
+        </div>
+        <div class="explanation" id="exp33">正解: A <br>解説：目的変数を、説明変数を使って算出します。</div>
+    </div>
+
+    <div class="question" id="q34">
+        <p>34. 回帰分析において、予測の根拠となる方の要素（原因となる値）を何と呼ぶか。</p>
+        <div class="options">
+            <label><input type="radio" name="q34" value="A"> 目的変数</label>
+            <label><input type="radio" name="q34" value="B"> 相関係数</label>
+            <label><input type="radio" name="q34" value="C"> TQM</label>
+            <label><input type="radio" name="q34" value="D"> 説明変数</label>
+        </div>
+        <div class="explanation" id="exp34">正解: D <br>解説：数式において目的変数を説明するための変数です。</div>
+    </div>
+
+    <div class="question" id="q35">
+        <p>35. 数式モデルを当てはめて、目的変数と説明変数の関係を明らかにする手法はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q35" value="A"> モザイク図</label>
+            <label><input type="radio" name="q35" value="B"> ヒートマップ</label>
+            <label><input type="radio" name="q35" value="C"> 回帰分析</label>
+            <label><input type="radio" name="q35" value="D"> ABC分析</label>
+        </div>
+        <div class="explanation" id="exp35">正解: C <br>解説：過去のデータから将来の値を予測する際などに用いられます。</div>
+    </div>
+
+    <div class="question" id="q36">
+        <p>36. 目的を達成するための手段を順次枝分かれさせて図解し、全体像を見える化する図はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q36" value="A"> 系統図（ロジックツリー）</label>
+            <label><input type="radio" name="q36" value="B"> マトリックス図</label>
+            <label><input type="radio" name="q36" value="C"> ヒストグラム</label>
+            <label><input type="radio" name="q36" value="D"> ヒートマップ</label>
+        </div>
+        <div class="explanation" id="exp36">正解: A <br>解説：問題を深掘りし、具体的な解決策を導き出すのに使います。</div>
+    </div>
+
+    <div class="question" id="q37">
+        <p>37. 二つの要素を行と列に分け、その交点に関連性を表示して整理した図はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q37" value="A"> 特性要因図</label>
+            <label><input type="radio" name="q37" value="B"> ヒートマップ</label>
+            <label><input type="radio" name="q37" value="C"> マトリックス図</label>
+            <label><input type="radio" name="q37" value="D"> 箱ひげ図</label>
+        </div>
+        <div class="explanation" id="exp37">正解: C <br>解説：多次元的な要素の組み合わせを整理します。</div>
+    </div>
+
+    <div class="question" id="q38">
+        <p>38. 多変数間の割合（構成比）を、長方形の面積で表現した図はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q38" value="A"> モザイク図</label>
+            <label><input type="radio" name="q38" value="B"> ヒストグラム</label>
+            <label><input type="radio" name="q38" value="C"> パレート図</label>
+            <label><input type="radio" name="q38" value="D"> 散布図</label>
+        </div>
+        <div class="explanation" id="exp38">正解: A <br>解説：全体の構成と各項目の割合を同時に把握できます。</div>
+    </div>
+
+    <div class="question" id="q39">
+        <p>39. 概念地図と訳され、キーワード同士の関連を線などで表現して可視化する手法はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q39" value="A"> コンセプトマップ</label>
+            <label><input type="radio" name="q39" value="B"> マトリックス図</label>
+            <label><input type="radio" name="q39" value="C"> 系統図</label>
+            <label><input type="radio" name="q39" value="D"> ヒートマップ</label>
+        </div>
+        <div class="explanation" id="exp39">正解: A <br>解説：思考の整理や知識の構造化に役立ちます。</div>
+    </div>
+
+    <div class="question" id="q40">
+        <p>40. 部門横断的に全社員が参加して、製品やサービスの品質向上を目指す活動はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q40" value="A"> TQC</label>
+            <label><input type="radio" name="q40" value="B"> ISO 9001</label>
+            <label><input type="radio" name="q40" value="C"> QCサークル</label>
+            <label><input type="radio" name="q40" value="D"> PDCA</label>
+        </div>
+        <div class="explanation" id="exp40">正解: A <br>解説：Total Quality Controlの略。日本で発展した品質管理手法です。</div>
+    </div>
+
+    <div class="question" id="q41">
+        <p>41. TQCを発展させ、経営戦略として全社的に継続的な品質向上を目指す手法はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q41" value="A"> BPR</label>
+            <label><input type="radio" name="q41" value="B"> CSF</label>
+            <label><input type="radio" name="q41" value="C"> PDCA</label>
+            <label><input type="radio" name="q41" value="D"> TQM</label>
+        </div>
+        <div class="explanation" id="exp41">正解: D <br>解説：Total Quality Managementの略。総合的品質経営です。</div>
+    </div>
+
+    <!-- 9-07 データ利活用 (17問) -->
+    <h2>９－０７ データ利活用と問題解決</h2>
+
+    <div class="question" id="q42">
+        <p>42. 統計調査において、分析の対象となる集団全体を何と呼ぶか。</p>
+        <div class="options">
+            <label><input type="radio" name="q42" value="A"> 標本（サンプル）</label>
+            <label><input type="radio" name="q42" value="B"> 母集団</label>
+            <label><input type="radio" name="q42" value="C"> 変数</label>
+            <label><input type="radio" name="q42" value="D"> クラスター</label>
+        </div>
+        <div class="explanation" id="exp42">正解: B <br>解説：日本国民全員の調査なら、日本国民が母集団です。</div>
+    </div>
+
+    <div class="question" id="q43">
+        <p>43. 母集団から一部のデータを抜き出して調査することを何というか。</p>
+        <div class="options">
+            <label><input type="radio" name="q43" value="A"> 標本抽出</label>
+            <label><input type="radio" name="q43" value="B"> 全数調査</label>
+            <label><input type="radio" name="q43" value="C"> 帰納推論</label>
+            <label><input type="radio" name="q43" value="D"> 主成分分析</label>
+        </div>
+        <div class="explanation" id="exp43">正解: A <br>解説：サンプリングとも言います。</div>
+    </div>
+
+    <div class="question" id="q44">
+        <p>44. 母集団のすべての要素から、ランダムに標本を選ぶ抽出方法はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q44" value="A"> 一定間隔抽出法</label>
+            <label><input type="radio" name="q44" value="B"> 単純無作為抽出法</label>
+            <label><input type="radio" name="q44" value="C"> 層化抽出法</label>
+            <label><input type="radio" name="q44" value="D"> クラスター抽出法</label>
+        </div>
+        <div class="explanation" id="exp44">正解: B <br>解説：偏りがないようにランダムに選びます。</div>
+    </div>
+
+    <div class="question" id="q45">
+        <p>45. 母集団をいくつのかたまり（集団）に分け、その中から選んだ集団を全数調査する手法はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q45" value="A"> 単純抽出法</label>
+            <label><input type="radio" name="q45" value="B"> 多段抽出法</label>
+            <label><input type="radio" name="q45" value="C"> 層化抽出法</label>
+            <label><input type="radio" name="q45" value="D"> クラスター抽出法</label>
+        </div>
+        <div class="explanation" id="exp45">正解: D <br>解説：抽出の単位を集団にする方法です。</div>
+    </div>
+
+    <div class="question" id="q46">
+        <p>46. 片方の数値が増えるともう片方も増える、といった二者の関連性を何というか。</p>
+        <div class="options">
+            <label><input type="radio" name="q46" value="A"> 相関関係</label>
+            <label><input type="radio" name="q46" value="B"> 帰納推論</label>
+            <label><input type="radio" name="q46" value="C"> 因果関係</label>
+            <label><input type="radio" name="q46" value="D"> 主成分分析</label>
+        </div>
+        <div class="explanation" id="exp46">正解: A <br>解説：あくまで関連性であり、一方が原因とは限りません。</div>
+    </div>
+
+    <div class="question" id="q47">
+        <p>47. 二つのデータの間に「原因と結果」の関係があることを何というか。</p>
+        <div class="options">
+            <label><input type="radio" name="q47" value="A"> 相関関係</label>
+            <label><input type="radio" name="q47" value="B"> 因果関係</label>
+            <label><input type="radio" name="q47" value="C"> 擬似相関</label>
+            <label><input type="radio" name="q47" value="D"> 逆相関</label>
+        </div>
+        <div class="explanation" id="exp47">正解: B <br>解説：一方が原因で、他方が結果として変動する関係です。</div>
+    </div>
+
+    <div class="question" id="q48">
+        <p>48. 非常に多くの項目があるデータを、情報の損失を抑えつつ少数の合成指標にまとめる手法はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q48" value="A"> 主成分分析</label>
+            <label><input type="radio" name="q48" value="B"> 演繹推論</label>
+            <label><input type="radio" name="q48" value="C"> クラスター分析</label>
+            <label><input type="radio" name="q48" value="D"> 回帰分析</label>
+        </div>
+        <div class="explanation" id="exp48">正解: A <br>解説：次元を削減してデータの特徴を捉えやすくします。</div>
+    </div>
+
+    <div class="question" id="q49">
+        <p>49. 統計学で、あらかじめ立てた「差がない・関係がない」とする仮定を何と呼ぶか。</p>
+        <div class="options">
+            <label><input type="radio" name="q49" value="A"> 帰無仮説</label>
+            <label><input type="radio" name="q49" value="B"> 対立仮説</label>
+            <label><input type="radio" name="q49" value="C"> 作業仮説</label>
+            <label><input type="radio" name="q49" value="D"> 基本仮説</label>
+        </div>
+        <div class="explanation" id="exp49">正解: A <br>解説：この仮説を否定（棄却）することで「意味がある」と結論づけます。</div>
+    </div>
+
+    <div class="question" id="q50">
+        <p>50. サンプルデータに基づき、ある仮説が正しいかどうかを確率的に判定する手法はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q50" value="A"> 記述統計</label>
+            <label><input type="radio" name="q50" value="B"> 仮説検定</label>
+            <label><input type="radio" name="q50" value="C"> 相関分析</label>
+            <label><input type="radio" name="q50" value="D"> 傾向予測</label>
+        </div>
+        <div class="explanation" id="exp50">正解: B <br>解説：偶然起きたのか、必然なのかを判定します。</div>
+    </div>
+
+    <div class="question" id="q51">
+        <p>51. たくさんの具体的な事例から、共通する一般的な法則を導き出す推論はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q51" value="A"> 演繹推論</label>
+            <label><input type="radio" name="q51" value="B"> 帰納推論</label>
+            <label><input type="radio" name="q51" value="C"> 逆説的推論</label>
+            <label><input type="radio" name="q51" value="D"> 直感的推論</label>
+        </div>
+        <div class="explanation" id="exp51">正解: B <br>解説：AさんもBさんもCさんも死ぬから、人は死ぬ、と結論づける方法です。</div>
+    </div>
+
+    <div class="question" id="q52">
+        <p>52. 一般的な法則を前提として、個別の事例の結果を論理的に導く推論はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q52" value="A"> 帰納推論</label>
+            <label><input type="radio" name="q52" value="B"> 仮説検定</label>
+            <label><input type="radio" name="q52" value="C"> 演繹推論</label>
+            <label><input type="radio" name="q52" value="D"> 主成分分析</label>
+        </div>
+        <div class="explanation" id="exp52">正解: C <br>解説：三段論法などが代表的です。</div>
+    </div>
+
+    <div class="question" id="q53">
+        <p>53. 特定の時点において、複数の調査対象（人や国など）を横断的に集めたデータはどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q53" value="A"> 時系列データ</label>
+            <label><input type="radio" name="q53" value="B"> クロスセクションデータ</label>
+            <label><input type="radio" name="q53" value="C"> パネルデータ</label>
+            <label><input type="radio" name="q53" value="D"> ビッグデータ</label>
+        </div>
+        <div class="explanation" id="exp53">正解: B <br>解説：ある一瞬を切り取って複数の対象を比べるデータです。</div>
+    </div>
+
+    <div class="question" id="q54">
+        <p>54. 批判厳禁、自由奔放など4つのルールを守り、多人数でアイデアを出し合う手法はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q54" value="A"> ブレーンライティング</label>
+            <label><input type="radio" name="q54" value="B"> ブレーンストーミング</label>
+            <label><input type="radio" name="q54" value="C"> KJ法</label>
+            <label><input type="radio" name="q54" value="D"> 親和図法</label>
+        </div>
+        <div class="explanation" id="exp54">正解: B <br>解説：発散的思考を行い、アイデアの質より量を重視します。</div>
+    </div>
+
+    <div class="question" id="q55">
+        <p>55. 発言するのが苦手な人がいる場合などに、紙に書いて回覧しアイデアを広げる手法はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q55" value="A"> ブレーンライティング</label>
+            <label><input type="radio" name="q55" value="B"> ブレーンストーミング</label>
+            <label><input type="radio" name="q55" value="C"> マインドマップ</label>
+            <label><input type="radio" name="q55" value="D"> ロールプレイング</label>
+        </div>
+        <div class="explanation" id="exp55">正解: A <br>解説：沈黙の中でアイデアを書き出し、他人のアイデアに乗っかります。</div>
+    </div>
+
+    <div class="question" id="q56">
+        <p>56. 会議において、中立的な立場で議論を促し、意見を整理して合意形成を助ける役割はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q56" value="A"> リーダー</label>
+            <label><input type="radio" name="q56" value="B"> タイムキーパー</label>
+            <label><input type="radio" name="q56" value="C"> ファシリテータ</label>
+            <label><input type="radio" name="q56" value="D"> レコーダー</label>
+        </div>
+        <div class="explanation" id="exp56">正解: C <br>解説：議事進行そのものをマネジメントします。</div>
+    </div>
+
+    <div class="question" id="q57">
+        <p>57. 昨日の気温が10℃、今日の気温が20℃のとき、「2倍暑い」という表現は数学的に正しいか。</p>
+        <div class="options">
+            <label><input type="radio" name="q57" value="A"> 正しい（〇）</label>
+            <label><input type="radio" name="q57" value="B"> 正しくない（×）</label>
+        </div>
+        <div class="explanation" id="exp57">正解: B <br>解説：摂氏温度（℃）は間隔尺度であり、0℃は「熱がない」ことではないため、比率計算はできません。</div>
+    </div>
+
+    <div class="question" id="q58">
+        <p>58. 0点が「全く存在しない」ことを意味し、身長や売上高などのように比率に意味がある尺度はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q58" value="A"> 名義尺度</label>
+            <label><input type="radio" name="q58" value="B"> 比率尺度（比例尺度）（比較尺度）</label>
+            <label><input type="radio" name="q58" value="C"> 順序尺度</label>
+            <label><input type="radio" name="q58" value="D"> 間隔尺度</label>
+        </div>
+        <div class="explanation" id="exp58">正解: B <br>解説：加減乗除がすべて可能な尺度です。</div>
+    </div>
+
+    <!-- 9-08 標準化 (14問) -->
+    <h2>９－０８ 標準化</h2>
+
+    <div class="question" id="q59">
+        <p>59. 工業や科学技術分野において、世界最大の国際規格を策定する機関はどこか。</p>
+        <div class="options">
+            <label><input type="radio" name="q59" value="A"> IEEE</label>
+            <label><input type="radio" name="q59" value="B"> ISO</label>
+            <label><input type="radio" name="q59" value="C"> ITU</label>
+            <label><input type="radio" name="q59" value="D"> W3C</label>
+        </div>
+        <div class="explanation" id="exp59">正解: B <br>解説：国際標準化機構のことです。</div>
+    </div>
+
+    <div class="question" id="q60">
+        <p>60. 公的な機関が決めたものではないが、市場シェアなどで事実上の標準となったものはどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q60" value="A"> デファクトスタンダード</label>
+            <label><input type="radio" name="q60" value="B"> デジュレスタンダード</label>
+            <label><input type="radio" name="q60" value="C"> フォーラム標準</label>
+            <label><input type="radio" name="q60" value="D"> プロトコル</label>
+        </div>
+        <div class="explanation" id="exp60">正解: A <br>解説：キーボードのQWERTY配列などが有名です。</div>
+    </div>
+
+    <div class="question" id="q61">
+        <p>61. ISOなどの公的機関が、正当な手続き（法）に基づいて定めた標準はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q61" value="A"> デファクトスタンダード</label>
+            <label><input type="radio" name="q61" value="B"> 業界標準</label>
+            <label><input type="radio" name="q61" value="C"> デジュレスタンダード</label>
+            <label><input type="radio" name="q61" value="D"> 独自規格</label>
+        </div>
+        <div class="explanation" id="exp61">正解: C <br>解説：法律や国際合意に基づいた標準です。</div>
+    </div>
+
+    <div class="question" id="q62">
+        <p>62. 特定の技術に関心を持つ複数の企業や団体が集まって策定する標準規格はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q62" value="A"> 国家規格</label>
+            <label><input type="radio" name="q62" value="B"> デファクトスタンダード</label>
+            <label><input type="radio" name="q62" value="C"> フォーラム標準</label>
+            <label><input type="radio" name="q62" value="D"> 社内標準</label>
+        </div>
+        <div class="explanation" id="exp62">正解: C <br>解説：USBやWi-Fiの規格などはここに含まれることが多いです。</div>
+    </div>
+
+    <div class="question" id="q63">
+        <p>63. 日本国内において、産業製品やデータ、サービスなどの共通化を図るための国家規格はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q63" value="A"> ISO</label>
+            <label><input type="radio" name="q63" value="B"> IEEE</label>
+            <label><input type="radio" name="q63" value="C"> JIS</label>
+            <label><input type="radio" name="q63" value="D"> ANSI</label>
+        </div>
+        <div class="explanation" id="exp63">正解: C <br>解説：日本産業規格（Japanese Industrial Standards）です。</div>
+    </div>
+
+    <div class="question" id="q64">
+        <p>64. 顧客満足度を高めるための「品質マネジメントシステム」に関する国際規格はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q64" value="A"> ISO 9001</label>
+            <label><input type="radio" name="q64" value="B"> ISO 14001</label>
+            <label><input type="radio" name="q64" value="C"> ISO 27001</label>
+            <label><input type="radio" name="q64" value="D"> ISO 26000</label>
+        </div>
+        <div class="explanation" id="exp64">正解: A <br>解説：良い製品・サービスを安定して提供するための仕組みの規格です。</div>
+    </div>
+
+    <div class="question" id="q65">
+        <p>65. 企業活動による環境負荷を減らすための「環境マネジメントシステム」に関する国際規格はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q65" value="A"> ISO 9001</label>
+            <label><input type="radio" name="q65" value="B"> ISO 26000</label>
+            <label><input type="radio" name="q65" value="C"> ISO 14001</label>
+            <label><input type="radio" name="q65" value="D"> ISO 20000</label>
+        </div>
+        <div class="explanation" id="exp65">正解: C <br>解説：環境保護や汚染予防を目指す仕組みです。</div>
+    </div>
+
+    <div class="question" id="q66">
+        <p>66. ITサービスを適切に管理・運用するための「ITサービスマネジメント」に関する国際規格はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q66" value="A"> ISO 27001</label>
+            <label><input type="radio" name="q66" value="B"> ISO 14001</label>
+            <label><input type="radio" name="q66" value="C"> ISO/IEC 20000</label>
+            <label><input type="radio" name="q66" value="D"> ISO 9001</label>
+        </div>
+        <div class="explanation" id="exp66">正解: C <br>解説：ITIL（アイティル）をベースにした国際規格です。</div>
+    </div>
+
+    <div class="question" id="q67">
+        <p>67. 組織が守るべき「社会的責任（SR）」についてのガイドラインを示した国際規格はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q67" value="A"> ISO 9001</label>
+            <label><input type="radio" name="q67" value="B"> ISO 38500</label>
+            <label><input type="radio" name="q67" value="C"> ISO 26000</label>
+            <label><input type="radio" name="q67" value="D"> ISO 14001</label>
+        </div>
+        <div class="explanation" id="exp67">正解: C <br>解説：認証用ではなく、ガイダンス（手引）として策定されています。</div>
+    </div>
+
+    <div class="question" id="q68">
+        <p>68. 情報の機密性・完全性・可用性を維持する「ISMS」に関する国際規格はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q68" value="A"> ISO 38500</label>
+            <label><input type="radio" name="q68" value="B"> ISO 14001</label>
+            <label><input type="radio" name="q68" value="C"> ISO 9001</label>
+            <label><input type="radio" name="q68" value="D"> ISO/IEC 27001</label>
+        </div>
+        <div class="explanation" id="exp68">正解: D <br>解説：情報セキュリティマネジメントシステムの規格です。</div>
+    </div>
+
+    <div class="question" id="q69">
+        <p>69. 経営者がITの活用を適切に統制するための「ITガバナンス」に関する国際規格はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q69" value="A"> ISO/IEC 38500</label>
+            <label><input type="radio" name="q69" value="B"> ISO 9001</label>
+            <label><input type="radio" name="q69" value="C"> ISO 27001</label>
+            <label><input type="radio" name="q69" value="D"> ISO 14001</label>
+        </div>
+        <div class="explanation" id="exp69">正解: A <br>解説：経営層によるIT活用のための原則を定めています。</div>
+    </div>
+
+    <div class="question" id="q70">
+        <p>70. 電気通信、無線通信など、通信分野の国際標準を策定する国連の機関はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q70" value="A"> ISO</label>
+            <label><input type="radio" name="q70" value="B"> IEEE</label>
+            <label><input type="radio" name="q70" value="C"> W3C</label>
+            <label><input type="radio" name="q70" value="D"> ITU</label>
+        </div>
+        <div class="explanation" id="exp70">正解: D <br>解説：国際電気通信連合（International Telecommunication Union）です。</div>
+    </div>
+
+    <div class="question" id="q71">
+        <p>71. クラウドサービスに関する情報セキュリティ管理を評価するための国際規格はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q71" value="A"> ISO 14001</label>
+            <label><input type="radio" name="q71" value="B"> JIS Q 15001</label>
+            <label><input type="radio" name="q71" value="C"> ISO/IEC 27017</label>
+            <label><input type="radio" name="q71" value="D"> ISO 9001</label>
+        </div>
+        <div class="explanation" id="exp71">正解: C <br>解説：ISMSをクラウドサービスに適用するための指針です。</div>
+    </div>
+
+    <div class="question" id="q72">
+        <p>72. 日本独自の、個人情報保護マネジメントシステム（Pマークの基準）に関する規格はどれか。</p>
+        <div class="options">
+            <label><input type="radio" name="q72" value="A"> ISO 27001</label>
+            <label><input type="radio" name="q72" value="B"> JIS Q 15001</label>
+            <label><input type="radio" name="q72" value="C"> ISO 9001</label>
+            <label><input type="radio" name="q72" value="D"> ISO 14001</label>
+        </div>
+        <div class="explanation" id="exp72">正解: B <br>解説：プライバシーマーク制度の適合性審査の基準となる規格です。</div>
+    </div>
+
+    <div class="footer">
+        <button type="button" onclick="checkAnswers()">全問答え合わせをする</button>
+    </div>
+</form>
+
+<script>
+    function checkAnswers() {
+        const total = 72;
+        let score = 0;
+        
+        // 正解キー
+        const keys = {
+            q1: "D", q2: "D", q3: "C", q4: "C", q5: "B", q6: "D", q7: "C", q8: "C", q9: "D", q10: "A",
+            q11: "A", q12: "B", q13: "B", q14: "A", q15: "C", q16: "C", q17: "D", q18: "B", q19: "C", q20: "D",
+            q21: "D", q22: "B", q23: "A",
+            q24: "D", q25: "B", q26: "D", q27: "C", q28: "C", q29: "D", q30: "B", q31: "A", q32: "D", q33: "A",
+            q34: "D", q35: "C", q36: "A", q37: "C", q38: "A", q39: "A", q40: "A", q41: "D",
+            q42: "B", q43: "A", q44: "B", q45: "D", q46: "A", q47: "B", q48: "A", q49: "A", q50: "B", q51: "B",
+            q52: "C", q53: "B", q54: "B", q55: "A", q56: "C", q57: "B", q58: "B",
+            q59: "B", q60: "A", q61: "C", q62: "C", q63: "C", q64: "A", q65: "C", q66: "C", q67: "C", q68: "D",
+            q69: "A", q70: "D", q71: "C", q72: "B"
+        };
+
+        for (let i = 1; i <= total; i++) {
+            const radios = document.getElementsByName('q' + i);
+            let selectedValue = "";
+            for (const radio of radios) {
+                if (radio.checked) {
+                    selectedValue = radio.value;
+                    break;
+                }
+            }
+
+            const exp = document.getElementById('exp' + i);
+            const questionDiv = document.getElementById('q' + i);
+            
+            exp.style.display = "block";
+
+            if (selectedValue === keys['q' + i]) {
+                score++;
+                exp.className = "explanation correct";
+            } else {
+                exp.className = "explanation incorrect";
+            }
+        }
+
+        const resultDiv = document.getElementById('result');
+        resultDiv.innerHTML = "あなたのスコアは " + score + " / " + total + " です。 (" + Math.round(score/total*100) + "%)";
+        window.scrollTo(0,0);
+    }
+</script>
+
+</body>
+</html>

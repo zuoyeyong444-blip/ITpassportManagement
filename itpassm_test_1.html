@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ITパスポート【マネジメント】 確認問題集１</title>
+<style>
+    body {
+        font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 20px;
+    }
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h1 {
+        text-align: center;
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+    }
+    h2 {
+        background-color: #ecf0f1;
+        padding: 10px 15px;
+        border-left: 5px solid #3498db;
+        color: #2980b9;
+        margin-top: 40px;
+    }
+    .question-block {
+        margin-bottom: 25px;
+        padding: 15px;
+        border: 1px solid #e0e0e0;
+        border-radius: 5px;
+        background-color: #fafafa;
+    }
+    .question-text {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .options {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .options li {
+        margin-bottom: 8px;
+    }
+    label {
+        cursor: pointer;
+        display: flex;
+        align-items: baseline;
+    }
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+    .explanation {
+        margin-top: 15px;
+        padding: 12px;
+        border-radius: 5px;
+        font-size: 0.95em;
+        display: none;
+    }
+    .correct-ans {
+        background-color: #d4edda;
+        border: 1px solid #c3e6cb;
+        color: #155724;
+    }
+    .wrong-ans {
+        background-color: #f8d7da;
+        border: 1px solid #f5c6cb;
+        color: #721c24;
+    }
+    .btn-check {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #fff;
+        background-color: #3498db;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 40px;
+        transition: background-color 0.3s;
+    }
+    .btn-check:hover {
+        background-color: #2980b9;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>確認問題集</h1>
+    <form id="quiz-form">
+
+        <!-- ９－０１ -->
+        <section>
+            <h2>９－０１　財務諸表</h2>
+            <div class="question-block">
+                <div class="question-text">1. 決算日における企業の資産・負債・純資産を記載したものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_1" value="1"> 損益計算書</label></li>
+                    <li><label><input type="radio" name="q9_01_1" value="2"> キャッシュフロー計算書</label></li>
+                    <li><label><input type="radio" name="q9_01_1" value="3"> 貸借対照表</label></li>
+                    <li><label><input type="radio" name="q9_01_1" value="4"> 連結財務諸表</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">2. 会計期間に発生した収益と費用によって、企業の経営成績を表示したものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_2" value="1"> キャッシュフロー計算書</label></li>
+                    <li><label><input type="radio" name="q9_01_2" value="2"> 連結財務諸表</label></li>
+                    <li><label><input type="radio" name="q9_01_2" value="3"> 貸借対照表</label></li>
+                    <li><label><input type="radio" name="q9_01_2" value="4"> 損益計算書</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">3. 「営業活動」「投資活動」「財務活動」に分けて、会計期間における現金の流れを記載したものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_3" value="1"> 損益計算書</label></li>
+                    <li><label><input type="radio" name="q9_01_3" value="2"> 連結財務諸表</label></li>
+                    <li><label><input type="radio" name="q9_01_3" value="3"> キャッシュフロー計算書</label></li>
+                    <li><label><input type="radio" name="q9_01_3" value="4"> 貸借対照表</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">4. 親会社と子会社の会計を合算し、グループ間の取引を相殺した計算書類はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_4" value="1"> 損益計算書</label></li>
+                    <li><label><input type="radio" name="q9_01_4" value="2"> キャッシュフロー計算書</label></li>
+                    <li><label><input type="radio" name="q9_01_4" value="3"> 貸借対照表</label></li>
+                    <li><label><input type="radio" name="q9_01_4" value="4"> 連結財務諸表</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">5. 流動資産とは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_5" value="1"> 1年以内に現金化できる資産</label></li>
+                    <li><label><input type="radio" name="q9_01_5" value="2"> 企業の純資産</label></li>
+                    <li><label><input type="radio" name="q9_01_5" value="3"> 企業の負債</label></li>
+                    <li><label><input type="radio" name="q9_01_5" value="4"> 1年以上保有する資産</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">6. 固定資産とは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_6" value="1"> 1年以内に現金化できる資産</label></li>
+                    <li><label><input type="radio" name="q9_01_6" value="2"> 1年以上保有する資産</label></li>
+                    <li><label><input type="radio" name="q9_01_6" value="3"> 企業の負債</label></li>
+                    <li><label><input type="radio" name="q9_01_6" value="4"> 企業の純資産</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">7. 次のうち、買掛金と売掛金の説明として正しいものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_7" value="1"> 買掛金は負債、売掛金は資産である。</label></li>
+                    <li><label><input type="radio" name="q9_01_7" value="2"> 買掛金は資産、売掛金は負債である。</label></li>
+                    <li><label><input type="radio" name="q9_01_7" value="3"> 買掛金も売掛金も1年以上保有する固定資産である。</label></li>
+                    <li><label><input type="radio" name="q9_01_7" value="4"> 買掛金も売掛金も企業の純資産である。</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">8. 次のうち、負債（他人資本）と純資産（自己資本）の違いについて正しく説明しているものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_8" value="1"> 純資産は借入金や買掛金などで構成される。</label></li>
+                    <li><label><input type="radio" name="q9_01_8" value="2"> 負債も純資産も企業が返済義務を負う資金である。</label></li>
+                    <li><label><input type="radio" name="q9_01_8" value="3"> 負債は企業の所有者が出資した資金である。</label></li>
+                    <li><label><input type="radio" name="q9_01_8" value="4"> 負債は返済義務があり、純資産は返済義務がない。</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">9. ディスクロージャとは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_9" value="1"> 企業の財務状態や経営成績を外部に公開すること</label></li>
+                    <li><label><input type="radio" name="q9_01_9" value="2"> 企業の資産を売却すること</label></li>
+                    <li><label><input type="radio" name="q9_01_9" value="3"> 企業の株式を発行すること</label></li>
+                    <li><label><input type="radio" name="q9_01_9" value="4"> 企業の内部監査を行うこと</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">10. 営業利益はどのように求めますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_10" value="1"> 売上総利益－販売費及び一般管理費</label></li>
+                    <li><label><input type="radio" name="q9_01_10" value="2"> 当期純利益＋法人税等</label></li>
+                    <li><label><input type="radio" name="q9_01_10" value="3"> 営業利益＋営業外収益－営業外費用</label></li>
+                    <li><label><input type="radio" name="q9_01_10" value="4"> 売上高－売上原価</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">11. 経常利益はどのように計算しますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_11" value="1"> 営業利益＋営業外収益－営業外費用</label></li>
+                    <li><label><input type="radio" name="q9_01_11" value="2"> 売上総利益－販売費及び一般管理費</label></li>
+                    <li><label><input type="radio" name="q9_01_11" value="3"> 営業利益＋特別利益－特別損失</label></li>
+                    <li><label><input type="radio" name="q9_01_11" value="4"> 売上高－売上原価</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">12. 消費税の仕入税額控除を受けるために必要な書類はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_12" value="1"> 見積書</label></li>
+                    <li><label><input type="radio" name="q9_01_12" value="2"> 領収書</label></li>
+                    <li><label><input type="radio" name="q9_01_12" value="3"> 納品書</label></li>
+                    <li><label><input type="radio" name="q9_01_12" value="4"> 適格請求書（インボイス）</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">13. 流動比率とは何を示す指標ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_13" value="1"> 固定資産が純資産に対してどれだけあるかを示す指標</label></li>
+                    <li><label><input type="radio" name="q9_01_13" value="2"> 売上高に対する営業利益の割合を示す指標</label></li>
+                    <li><label><input type="radio" name="q9_01_13" value="3"> 流動資産が流動負債に対してどれだけあるかを示す指標</label></li>
+                    <li><label><input type="radio" name="q9_01_13" value="4"> 負債全体に対する純資産の割合を示す指標</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">14. 企業の自己資本に対して固定資産がどれだけあるかを示す指標は何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_14" value="1"> 流動比率</label></li>
+                    <li><label><input type="radio" name="q9_01_14" value="2"> 自己資本比率</label></li>
+                    <li><label><input type="radio" name="q9_01_14" value="3"> 固定比率</label></li>
+                    <li><label><input type="radio" name="q9_01_14" value="4"> 負債比率</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">15. 自己資本比率の計算式として正しいものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_15" value="1"> 自己資本 ÷ 総資本 × 100</label></li>
+                    <li><label><input type="radio" name="q9_01_15" value="2"> 流動資産 ÷ 流動負債 × 100</label></li>
+                    <li><label><input type="radio" name="q9_01_15" value="3"> 負債 ÷ 総資本 × 100</label></li>
+                    <li><label><input type="radio" name="q9_01_15" value="4"> 固定資産 ÷ 自己資本 × 100</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">16. ROE（自己資本利益率）の意味として正しいものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_16" value="1"> 企業の総資産に対する負債の割合を示す指標</label></li>
+                    <li><label><input type="radio" name="q9_01_16" value="2"> 株主が出資した資本でどれだけ利益を生み出したかを示す指標</label></li>
+                    <li><label><input type="radio" name="q9_01_16" value="3"> 流動負債に対する流動資産の割合を示す指標</label></li>
+                    <li><label><input type="radio" name="q9_01_16" value="4"> 売上高に対する営業利益の割合を示す指標</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">17. ROAとは何を評価する指標ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_17" value="1"> 企業の負債の返済能力</label></li>
+                    <li><label><input type="radio" name="q9_01_17" value="2"> 企業の株主資本の増加率</label></li>
+                    <li><label><input type="radio" name="q9_01_17" value="3"> 企業の流動資産の割合</label></li>
+                    <li><label><input type="radio" name="q9_01_17" value="4"> 企業が総資産を使ってどれだけ効率的に利益を上げているか</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">18. 売上総利益率（粗利率）が高い場合、企業のどのような状況を示していますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_18" value="1"> 原価管理が良好で収益性が高いことを示す</label></li>
+                    <li><label><input type="radio" name="q9_01_18" value="2"> 流動資産が少ないことを示す</label></li>
+                    <li><label><input type="radio" name="q9_01_18" value="3"> 営業外収益が多いことを示す</label></li>
+                    <li><label><input type="radio" name="q9_01_18" value="4"> 負債が多いことを示す</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">19. 総資本回転率の計算式として正しいものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_01_19" value="1"> 自己資本 ÷ 総資本</label></li>
+                    <li><label><input type="radio" name="q9_01_19" value="2"> 売上高 ÷ 総資本</label></li>
+                    <li><label><input type="radio" name="q9_01_19" value="3"> 営業利益 ÷ 総資本</label></li>
+                    <li><label><input type="radio" name="q9_01_19" value="4"> 総資本 ÷ 売上高</label></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ９－０２ -->
+        <section>
+            <h2>９－０２　損益分岐点と資産管理</h2>
+            <div class="question-block">
+                <div class="question-text">1. 売上に関係なく一定である費用は何と呼ばれますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_1" value="1"> 直接費</label></li>
+                    <li><label><input type="radio" name="q9_02_1" value="2"> 固定費</label></li>
+                    <li><label><input type="radio" name="q9_02_1" value="3"> 変動費</label></li>
+                    <li><label><input type="radio" name="q9_02_1" value="4"> 管理費</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">2. 売上に比例して増減する費用は何と呼ばれますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_2" value="1"> 減価償却費</label></li>
+                    <li><label><input type="radio" name="q9_02_2" value="2"> 間接費</label></li>
+                    <li><label><input type="radio" name="q9_02_2" value="3"> 変動費</label></li>
+                    <li><label><input type="radio" name="q9_02_2" value="4"> 固定費</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">3. 次のうち、損益分岐点売上高の意味と計算式として正しいものを選んでください。単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_3" value="1"> 利益がゼロになる売上高：固定費 ÷ (1 − 変動費率)</label></li>
+                    <li><label><input type="radio" name="q9_02_3" value="2"> 在庫がゼロになる売上高：固定費 × 変動費率</label></li>
+                    <li><label><input type="radio" name="q9_02_3" value="3"> 利益率が最大となる売上高：変動費 ÷ 売上高</label></li>
+                    <li><label><input type="radio" name="q9_02_3" value="4"> 最大利益が得られる売上高：売上高 − 変動費</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">4. 次のうち、変動費率の定義と計算式として正しいものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_4" value="1"> 変動費が利益に対して占める割合</label></li>
+                    <li><label><input type="radio" name="q9_02_4" value="2"> 変動費が売上高に対して占める割合</label></li>
+                    <li><label><input type="radio" name="q9_02_4" value="3"> 変動費が在庫に対して占める割合</label></li>
+                    <li><label><input type="radio" name="q9_02_4" value="4"> 変動費が固定費に対して占める割合</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">5. 先入先出法とは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_5" value="1"> 平均単価で出庫する方法</label></li>
+                    <li><label><input type="radio" name="q9_02_5" value="2"> 後に仕入れたものから先に出庫する方法</label></li>
+                    <li><label><input type="radio" name="q9_02_5" value="3"> 最安値で出庫する方法</label></li>
+                    <li><label><input type="radio" name="q9_02_5" value="4"> 先に仕入れたものから先に出庫する方法</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">6. 移動平均法とは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_6" value="1"> 最終仕入れ単価で出庫する方法</label></li>
+                    <li><label><input type="radio" name="q9_02_6" value="2"> 先入先出法で出庫する方法</label></li>
+                    <li><label><input type="radio" name="q9_02_6" value="3"> 仕入れの都度平均単価を計算する方法</label></li>
+                    <li><label><input type="radio" name="q9_02_6" value="4"> 固定単価で出庫する方法</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">7. 在庫回転率とは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_7" value="1"> 在庫の平均単価</label></li>
+                    <li><label><input type="radio" name="q9_02_7" value="2"> 在庫の総量</label></li>
+                    <li><label><input type="radio" name="q9_02_7" value="3"> 在庫の減価償却率</label></li>
+                    <li><label><input type="radio" name="q9_02_7" value="4"> 一定期間に在庫が何回入れ替わったかを示す指標</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">8. 定期発注方式とは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_8" value="1"> 一括発注方式</label></li>
+                    <li><label><input type="radio" name="q9_02_8" value="2"> 需要予測に基づいて発注する方式</label></li>
+                    <li><label><input type="radio" name="q9_02_8" value="3"> 一定期間ごとに発注する方式</label></li>
+                    <li><label><input type="radio" name="q9_02_8" value="4"> 在庫が一定量になったら発注する方式</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">9. 定量発注方式とは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_9" value="1"> 需要予測に基づいて発注する方式</label></li>
+                    <li><label><input type="radio" name="q9_02_9" value="2"> 一定期間ごとに発注する方式</label></li>
+                    <li><label><input type="radio" name="q9_02_9" value="3"> 一括発注方式</label></li>
+                    <li><label><input type="radio" name="q9_02_9" value="4"> 在庫が一定量になったら発注する方式</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">10. 減価償却とは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_10" value="1"> 資産の取得価額を耐用年数にわたって費用配分すること</label></li>
+                    <li><label><input type="radio" name="q9_02_10" value="2"> 資産の売却益を計上すること</label></li>
+                    <li><label><input type="radio" name="q9_02_10" value="3"> 資産の評価替えをすること</label></li>
+                    <li><label><input type="radio" name="q9_02_10" value="4"> 資産を一括で費用計上すること</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">11. 法定耐用年数とは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_11" value="1"> 資産の減価償却期間</label></li>
+                    <li><label><input type="radio" name="q9_02_11" value="2"> 会社が独自に決めた資産の使用年数</label></li>
+                    <li><label><input type="radio" name="q9_02_11" value="3"> 資産の実際の使用年数</label></li>
+                    <li><label><input type="radio" name="q9_02_11" value="4"> 税法で定められた資産の使用可能年数</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">12. 期待値とは何ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_02_12" value="1"> 確率と結果の積の合計</label></li>
+                    <li><label><input type="radio" name="q9_02_12" value="2"> 中央値</label></li>
+                    <li><label><input type="radio" name="q9_02_12" value="3"> 最大値</label></li>
+                    <li><label><input type="radio" name="q9_02_12" value="4"> 最小値</label></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ９－０３ -->
+        <section>
+            <h2>９－０３　知的財産権</h2>
+            <div class="question-block">
+                <div class="question-text">1. 文化的な創造物を保護する権利はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_1" value="1"> 参政権</label></li>
+                    <li><label><input type="radio" name="q9_03_1" value="2"> 著作権</label></li>
+                    <li><label><input type="radio" name="q9_03_1" value="3"> 人権</label></li>
+                    <li><label><input type="radio" name="q9_03_1" value="4"> 産業財産権</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">2. 産業の発展を保護する権利はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_2" value="1"> 永住権</label></li>
+                    <li><label><input type="radio" name="q9_03_2" value="2"> 著作権</label></li>
+                    <li><label><input type="radio" name="q9_03_2" value="3"> 産業財産権</label></li>
+                    <li><label><input type="radio" name="q9_03_2" value="4"> 市民権</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">3. 著作権の保護対象となるものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_3" value="1"> プロトコル</label></li>
+                    <li><label><input type="radio" name="q9_03_3" value="2"> アルゴリズム</label></li>
+                    <li><label><input type="radio" name="q9_03_3" value="3"> プログラム</label></li>
+                    <li><label><input type="radio" name="q9_03_3" value="4"> プログラム言語</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">4. 著作権の保護対象外となるものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_4" value="1"> 音楽</label></li>
+                    <li><label><input type="radio" name="q9_03_4" value="2"> 映画</label></li>
+                    <li><label><input type="radio" name="q9_03_4" value="3"> 絵画</label></li>
+                    <li><label><input type="radio" name="q9_03_4" value="4"> アイデア</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">5. 企業所属の人物が業務上作成した著作物の著作権の所有者は誰ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_5" value="1"> 国</label></li>
+                    <li><label><input type="radio" name="q9_03_5" value="2"> 企業</label></li>
+                    <li><label><input type="radio" name="q9_03_5" value="3"> 取引先</label></li>
+                    <li><label><input type="radio" name="q9_03_5" value="4"> 作成者本人</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">6. 他社に作成を委託した場合の著作権の所有者は誰ですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_6" value="1"> 国</label></li>
+                    <li><label><input type="radio" name="q9_03_6" value="2"> 取引先</label></li>
+                    <li><label><input type="radio" name="q9_03_6" value="3"> 委託元企業</label></li>
+                    <li><label><input type="radio" name="q9_03_6" value="4"> 委託先企業（作成者）</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">7. 社名や商品名、マーク、ロゴを保護する権利はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_7" value="1"> 商標権</label></li>
+                    <li><label><input type="radio" name="q9_03_7" value="2"> 特許権</label></li>
+                    <li><label><input type="radio" name="q9_03_7" value="3"> 実用新案権</label></li>
+                    <li><label><input type="radio" name="q9_03_7" value="4"> 意匠権</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">8. 新しい高度な発明を保護する権利はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_8" value="1"> 特許権</label></li>
+                    <li><label><input type="radio" name="q9_03_8" value="2"> 著作権</label></li>
+                    <li><label><input type="radio" name="q9_03_8" value="3"> 商標権</label></li>
+                    <li><label><input type="radio" name="q9_03_8" value="4"> 意匠権</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">9. 物品の構造・形状の考案を保護する権利はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_9" value="1"> 実用新案権</label></li>
+                    <li><label><input type="radio" name="q9_03_9" value="2"> 特許権</label></li>
+                    <li><label><input type="radio" name="q9_03_9" value="3"> 商標権</label></li>
+                    <li><label><input type="radio" name="q9_03_9" value="4"> 著作権</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">10. 物品のデザインを保護する権利はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_10" value="1"> 特許権</label></li>
+                    <li><label><input type="radio" name="q9_03_10" value="2"> 意匠権</label></li>
+                    <li><label><input type="radio" name="q9_03_10" value="3"> 著作権</label></li>
+                    <li><label><input type="radio" name="q9_03_10" value="4"> 商標権</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">11. 月額や年額で利用料金を支払い、常に最新バージョンが利用できるソフトウェア契約形態はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_11" value="1"> フリーウェア</label></li>
+                    <li><label><input type="radio" name="q9_03_11" value="2"> パッケージ購入</label></li>
+                    <li><label><input type="radio" name="q9_03_11" value="3"> ライセンス譲渡</label></li>
+                    <li><label><input type="radio" name="q9_03_11" value="4"> サブスクリプション契約</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">12. ソフトウェアのパッケージを開封することで利用許諾に同意したとみなされる契約形態はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_12" value="1"> フリーウェア契約</label></li>
+                    <li><label><input type="radio" name="q9_03_12" value="2"> サブスクリプション契約</label></li>
+                    <li><label><input type="radio" name="q9_03_12" value="3"> シュリンクラップ契約</label></li>
+                    <li><label><input type="radio" name="q9_03_12" value="4"> ライセンス譲渡契約</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">13. 大量購入者向けに、マスターを提供しインストール可能な台数を事前に定める契約形態はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_13" value="1"> サブスクリプション契約</label></li>
+                    <li><label><input type="radio" name="q9_03_13" value="2"> ボリュームライセンス契約</label></li>
+                    <li><label><input type="radio" name="q9_03_13" value="3"> フリーウェア契約</label></li>
+                    <li><label><input type="radio" name="q9_03_13" value="4"> シュリンクラップ契約</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">14. 1回だけ複製できるようにしたコピープロテクト技術はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_14" value="1"> デジタル署名</label></li>
+                    <li><label><input type="radio" name="q9_03_14" value="2"> マルチセッション</label></li>
+                    <li><label><input type="radio" name="q9_03_14" value="3"> リージョンコード</label></li>
+                    <li><label><input type="radio" name="q9_03_14" value="4"> CPRM</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">15. コンテンツデータに一見して分からない形で著作権情報を埋め込み、不正利用を検出できる技術はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_03_15" value="1"> デジタル・ウォーターマーク（電子透かし）</label></li>
+                    <li><label><input type="radio" name="q9_03_15" value="2"> マルチセッション</label></li>
+                    <li><label><input type="radio" name="q9_03_15" value="3"> DRM（デジタル著作権管理）</label></li>
+                    <li><label><input type="radio" name="q9_03_15" value="4"> リージョンコード</label></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ９－０４ -->
+        <section>
+            <h2>９－０４　セキュリティ・個人情報関連法規</h2>
+            <div class="question-block">
+                <div class="question-text">1.日本のサイバーセキュリティに関する施策の基本理念やセキュリティ戦略を定めた法律はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_1" value="1"> 不正アクセス禁止法</label></li>
+                    <li><label><input type="radio" name="q9_04_1" value="2"> サイバーセキュリティ基本法</label></li>
+                    <li><label><input type="radio" name="q9_04_1" value="3"> 個人情報保護法</label></li>
+                    <li><label><input type="radio" name="q9_04_1" value="4"> 特定電子メール法</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">2.サイバー攻撃から企業を守る観点で、経営者が認識すべき3原則などを記したガイドラインはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_2" value="1"> 情報セキュリティ管理基準</label></li>
+                    <li><label><input type="radio" name="q9_04_2" value="2"> 情報流通プラットフォーム対処法</label></li>
+                    <li><label><input type="radio" name="q9_04_2" value="3"> サイバーセキュリティ経営ガイドライン</label></li>
+                    <li><label><input type="radio" name="q9_04_2" value="4"> 個人情報保護ガイドライン</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">3.ネットワークに接続され、アクセス制限機能を持つコンピュータに対し、不正なアクセスを禁止する法律はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_3" value="1"> 特定電子メール法</label></li>
+                    <li><label><input type="radio" name="q9_04_3" value="2"> 個人情報保護法</label></li>
+                    <li><label><input type="radio" name="q9_04_3" value="3"> 不正アクセス禁止法</label></li>
+                    <li><label><input type="radio" name="q9_04_3" value="4"> サイバーセキュリティ基本法</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">4.インターネット上の誹謗中傷に対処するための法律はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_4" value="1"> 情報流通プラットフォーム対処法</label></li>
+                    <li><label><input type="radio" name="q9_04_4" value="2"> サイバーセキュリティ経営ガイドライン</label></li>
+                    <li><label><input type="radio" name="q9_04_4" value="3"> 不正アクセス禁止法</label></li>
+                    <li><label><input type="radio" name="q9_04_4" value="4"> 特定電子メール法</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">5.不特定多数に一方的に送られる電子メールは何と呼ばれますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_5" value="1"> スパムメール</label></li>
+                    <li><label><input type="radio" name="q9_04_5" value="2"> 広告メール</label></li>
+                    <li><label><input type="radio" name="q9_04_5" value="3"> フィッシングメール</label></li>
+                    <li><label><input type="radio" name="q9_04_5" value="4"> ウイルスメール</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">6.迷惑メール対策の法律はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_6" value="1"> サイバーセキュリティ基本法</label></li>
+                    <li><label><input type="radio" name="q9_04_6" value="2"> 不正アクセス禁止法</label></li>
+                    <li><label><input type="radio" name="q9_04_6" value="3"> 特定電子メール法</label></li>
+                    <li><label><input type="radio" name="q9_04_6" value="4"> 個人情報保護法</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">7.電子メールの送信に際し、あらかじめ受信者の承諾を得ることを何といいますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_7" value="1"> オプトイン</label></li>
+                    <li><label><input type="radio" name="q9_04_7" value="2"> フィルタリング</label></li>
+                    <li><label><input type="radio" name="q9_04_7" value="3"> ブラックリスト</label></li>
+                    <li><label><input type="radio" name="q9_04_7" value="4"> オプトアウト</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">8.コンピュータ使用時に意図していない不正な指令を与える電磁的記録を作成したり、正当な理由なく配布したりすることが対象となる刑法の規定はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_8" value="1"> ウィルス作成罪</label></li>
+                    <li><label><input type="radio" name="q9_04_8" value="2"> 情報漏洩罪</label></li>
+                    <li><label><input type="radio" name="q9_04_8" value="3"> 不正アクセス罪</label></li>
+                    <li><label><input type="radio" name="q9_04_8" value="4"> 著作権侵害罪</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">9.個人情報の不適切な取り扱いによって、個人の権利利益が侵害されないようにすることを目的とした法律はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_9" value="1"> サイバーセキュリティ基本法</label></li>
+                    <li><label><input type="radio" name="q9_04_9" value="2"> 個人情報保護法</label></li>
+                    <li><label><input type="radio" name="q9_04_9" value="3"> 情報流通プラットフォーム対処法</label></li>
+                    <li><label><input type="radio" name="q9_04_9" value="4"> 特定電子メール法</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">10.個人情報を取得する際に、通知・公表が義務付けられているものはどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_10" value="1"> 利用目的</label></li>
+                    <li><label><input type="radio" name="q9_04_10" value="2"> 取得方法</label></li>
+                    <li><label><input type="radio" name="q9_04_10" value="3"> 管理者名</label></li>
+                    <li><label><input type="radio" name="q9_04_10" value="4"> 保存期間</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">11.人種や信条、病歴や犯罪歴などの個人情報は何と呼ばれますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_11" value="1"> 特定個人情報</label></li>
+                    <li><label><input type="radio" name="q9_04_11" value="2"> 個人関連情報</label></li>
+                    <li><label><input type="radio" name="q9_04_11" value="3"> 匿名加工情報</label></li>
+                    <li><label><input type="radio" name="q9_04_11" value="4"> 要配慮個人情報</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">12.ウェブサイトの閲覧履歴、位置情報、購買履歴など、他の情報と合わせることで個人情報になる情報は何と呼ばれますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_12" value="1"> 特定個人情報</label></li>
+                    <li><label><input type="radio" name="q9_04_12" value="2"> 個人関連情報</label></li>
+                    <li><label><input type="radio" name="q9_04_12" value="3"> 匿名加工情報</label></li>
+                    <li><label><input type="radio" name="q9_04_12" value="4"> 要配慮個人情報</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">13.EUの個人情報保護に関する規則はどれですか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_13" value="1"> PIPEDA</label></li>
+                    <li><label><input type="radio" name="q9_04_13" value="2"> HIPAA</label></li>
+                    <li><label><input type="radio" name="q9_04_13" value="3"> CCPA</label></li>
+                    <li><label><input type="radio" name="q9_04_13" value="4"> GDPR</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">14.GDPRに規定されている、過去の自分の個人情報の削除を要求する権利は何と呼ばれますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_14" value="1"> 訂正権</label></li>
+                    <li><label><input type="radio" name="q9_04_14" value="2"> 忘れられる権利</label></li>
+                    <li><label><input type="radio" name="q9_04_14" value="3"> 移転権</label></li>
+                    <li><label><input type="radio" name="q9_04_14" value="4"> アクセス権</label></li>
+                </ul>
+            </div>
+            <div class="question-block">
+                <div class="question-text">15.個人が特定できないよう加工した情報は何と呼ばれますか？単一選択.</div>
+                <ul class="options">
+                    <li><label><input type="radio" name="q9_04_15" value="1"> 匿名加工情報</label></li>
+                    <li><label><input type="radio" name="q9_04_15" value="2"> 個人関連情報</label></li>
+                    <li><label><input type="radio" name="q9_04_15" value="3"> 要配慮個人情報</label></li>
+                    <li><label><input type="radio" name="q9_04_15" value="4"> 特定個人情報</label></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 答え合わせボタン -->
+        <button type="button" id="btn-check" class="btn-check">答え合わせ</button>
+
+    </form>
+</div>
+
+<script>
+    const answerData = {
+        // ９－０１
+        "q9_01_1": { correct: "3", explanation: "貸借対照表（B/S）は、決算日時点の資産・負債・純資産を記載し、企業の財政状態を表します。" },
+        "q9_01_2": { correct: "4", explanation: "損益計算書（P/L）は、一会計期間の収益と費用を比較し、企業の経営成績を表します。" },
+        "q9_01_3": { correct: "3", explanation: "キャッシュフロー計算書（C/F）は、現金の流れを営業・投資・財務の3区分で表します。" },
+        "q9_01_4": { correct: "4", explanation: "連結財務諸表は、親会社と子会社を一つの組織とみなして作成する書類です。" },
+        "q9_01_5": { correct: "1", explanation: "流動資産は、通常1年以内に現金化が予定されている資産です。" },
+        "q9_01_6": { correct: "2", explanation: "固定資産は、長期間（1年超）にわたって使用・保有される資産です。" },
+        "q9_01_7": { correct: "1", explanation: "買掛金は将来支払う義務（負債）、売掛金は将来受け取る権利（資産）です。" },
+        "q9_01_8": { correct: "4", explanation: "負債は返済が必要な「他人資本」、純資産は返済不要な「自己資本」です。" },
+        "q9_01_9": { correct: "1", explanation: "ディスクロージャは情報開示を意味し、財務情報を外部に公開することです。" },
+        "q9_01_10": { correct: "1", explanation: "営業利益 ＝ 売上総利益 － 販売費及び一般管理費 です。" },
+        "q9_01_11": { correct: "1", explanation: "経常利益 ＝ 営業利益 ＋ 営業外収益 － 営業外費用 です。" },
+        "q9_01_12": { correct: "4", explanation: "インボイス制度により、仕入税額控除には適格請求書が必要です。" },
+        "q9_01_13": { correct: "3", explanation: "流動比率 ＝ 流動資産 ÷ 流動負債 × 100 で、短期支払能力を示します。" },
+        "q9_01_14": { correct: "3", explanation: "固定比率 ＝ 固定資産 ÷ 自己資本 × 100 です。" },
+        "q9_01_15": { correct: "1", explanation: "自己資本比率 ＝ 自己資本 ÷ 総資本 × 100 です。" },
+        "q9_01_16": { correct: "2", explanation: "ROEは自己資本に対してどれだけ効率的に利益を上げたかを示す指標です。" },
+        "q9_01_17": { correct: "4", explanation: "ROAは総資産をどれだけ効率的に使って利益を上げたかを示す指標です。" },
+        "q9_01_18": { correct: "1", explanation: "売上総利益率が高いのは、原価が安く収益性が高いことを示します。" },
+        "q9_01_19": { correct: "2", explanation: "総資本回転率 ＝ 売上高 ÷ 総資本 です。" },
+
+        // ９－０２
+        "q9_02_1": { correct: "2", explanation: "固定費は売上にかかわらず発生する費用（家賃等）です。" },
+        "q9_02_2": { correct: "3", explanation: "変動費は売上に比例して増減する費用（材料費等）です。" },
+        "q9_02_3": { correct: "1", explanation: "損益分岐点 ＝ 固定費 ÷ (1 － 変動費率) で、利益が0になる点です。" },
+        "q9_02_4": { correct: "2", explanation: "変動費率 ＝ 変動費 ÷ 売上高 です。" },
+        "q9_02_5": { correct: "4", explanation: "先入先出法は、先に仕入れたものから順に出庫したとみなす方法です。" },
+        "q9_02_6": { correct: "3", explanation: "移動平均法は、仕入れるたびに平均単価を計算し直す方法です。" },
+        "q9_02_7": { correct: "4", explanation: "在庫回転率は、一定期間に在庫が何回入れ替わったかを示します。" },
+        "q9_02_8": { correct: "3", explanation: "定期発注方式は、一定の期間ごとに必要な量を計算して発注します。" },
+        "q9_02_9": { correct: "4", explanation: "定量発注方式は、在庫が一定量（発注点）を下回ったら一定量を発注します。" },
+        "q9_02_10": { correct: "1", explanation: "減価償却は、資産の購入費用を耐用年数に応じて分割計上することです。" },
+        "q9_02_11": { correct: "4", explanation: "法定耐用年数は、税法等で定められた資産の寿命の基準です。" },
+        "q9_02_12": { correct: "1", explanation: "期待値は、確率と結果の積を合計した平均的な見込み値です。" },
+
+        // ９－０３
+        "q9_03_1": { correct: "2", explanation: "著作権は、創作的な表現を保護する権利です。" },
+        "q9_03_2": { correct: "3", explanation: "産業財産権は、特許・実用新案・意匠・商標の4つの総称です。" },
+        "q9_03_3": { correct: "3", explanation: "プログラムは著作権で保護されますが、言語や規約は対象外です。" },
+        "q9_03_4": { correct: "4", explanation: "著作権は「表現」を保護するため、形のない「アイデア」は保護されません。" },
+        "q9_03_5": { correct: "2", explanation: "職務著作は、特約がない限り会社が著作権者となります。" },
+        "q9_03_6": { correct: "4", explanation: "外注した場合、原則として作成した委託先が著作権を持ちます。" },
+        "q9_03_7": { correct: "1", explanation: "商標権は、商品やサービスの識別マークを保護します。" },
+        "q9_03_8": { correct: "1", explanation: "特許権は、高度な発明を保護します。" },
+        "q9_03_9": { correct: "1", explanation: "実用新案権は、物品の形状等の小さな考案を保護します。" },
+        "q9_03_10": { correct: "2", explanation: "意匠権は、物品のデザインを保護します。" },
+        "q9_03_11": { correct: "4", explanation: "サブスクリプションは期間に対して料金を払う利用形態です。" },
+        "q9_03_12": { correct: "3", explanation: "開封により同意とみなすのがシュリンクラップ契約です。" },
+        "q9_03_13": { correct: "2", explanation: "複数導入のためにまとめてライセンスを得るのがボリュームライセンスです。" },
+        "q9_03_14": { correct: "4", explanation: "CPRMは、1回だけ録画可能な番組等のコピー制御技術です。" },
+        "q9_03_15": { correct: "1", explanation: "電子透かしは、目に見えない形で情報を埋め込む技術です。" },
+
+        // ９－０４
+        "q9_04_1": { correct: "2", explanation: "サイバーセキュリティ基本法は、日本の情報セキュリティ施策の根幹となる法律です。" },
+        "q9_04_2": { correct: "3", explanation: "サイバーセキュリティ経営ガイドラインは、経営者がリーダーシップを発揮するために策定されました。" },
+        "q9_04_3": { correct: "3", explanation: "不正アクセス禁止法は、他人のID/パスワードの悪用や脆弱性を突いた侵入を禁じます。" },
+        "q9_04_4": { correct: "1", explanation: "情報流通プラットフォーム対処法（旧プロバイダ責任制限法）は、誹謗中傷への削除依頼や発信者情報の開示を定めています。" },
+        "q9_04_5": { correct: "1", explanation: "一方的に送りつけられる広告等の迷惑メールは一般にスパムメールと呼ばれます。" },
+        "q9_04_6": { correct: "3", explanation: "特定電子メール法は、営利目的の迷惑メール送信を規制する法律です。" },
+        "q9_04_7": { correct: "1", explanation: "あらかじめ同意を得た相手にのみ送る方式をオプトイン方式といいます。" },
+        "q9_04_8": { correct: "1", explanation: "通称「ウイルス作成罪」は、正当な理由なくウイルスを作成・保管・配布することを処罰します。" },
+        "q9_04_9": { correct: "2", explanation: "個人情報保護法は、個人の権利利益を保護しつつ情報の有効活用を目的としています。" },
+        "q9_04_10": { correct: "1", explanation: "個人情報を取得する際は、本人に対しその「利用目的」を通知または公表する必要があります。" },
+        "q9_04_11": { correct: "4", explanation: "不当な差別や偏見を生じさせないよう慎重な扱いが求められるのが要配慮個人情報です。" },
+        "q9_04_12": { correct: "2", explanation: "単体では特定できないが、他と紐づくことで個人情報となるものが個人関連情報です。" },
+        "q9_04_13": { correct: "4", explanation: "GDPR（一般データ保護規則）はEUにおける強力な個人情報保護ルールです。" },
+        "q9_04_14": { correct: "2", explanation: "「忘れられる権利」は、不必要になった自分の情報を削除させる権利です。" },
+        "q9_04_15": { correct: "1", explanation: "特定の個人を識別できないように加工し、復元不可にしたものが匿名加工情報です。" }
+    };
+
+    document.getElementById('btn-check').addEventListener('click', function() {
+        let score = 0;
+        let total = Object.keys(answerData).length;
+        const questionBlocks = document.querySelectorAll('.question-block');
+
+        questionBlocks.forEach(block => {
+            const radio = block.querySelector('input[type="radio"]');
+            if (!radio) return;
+
+            const questionName = radio.name;
+            const data = answerData[questionName];
+            if (!data) return;
+
+            const selectedOption = block.querySelector(`input[name="${questionName}"]:checked`);
+            let explanationDiv = block.querySelector('.explanation');
+            if (!explanationDiv) {
+                explanationDiv = document.createElement('div');
+                explanationDiv.className = 'explanation';
+                block.appendChild(explanationDiv);
+            }
+
+            if (selectedOption) {
+                if (selectedOption.value === data.correct) {
+                    explanationDiv.innerHTML = `<strong>⭕️ 正解！</strong><br>${data.explanation}`;
+                    explanationDiv.className = 'explanation correct-ans';
+                    score++;
+                } else {
+                    const correctLabelText = block.querySelector(`input[name="${questionName}"][value="${data.correct}"]`).parentElement.textContent.trim();
+                    explanationDiv.innerHTML = `<strong>❌ 不正解...</strong> 正解は「${correctLabelText}」です。<br>${data.explanation}`;
+                    explanationDiv.className = 'explanation wrong-ans';
+                }
+            } else {
+                const correctLabelText = block.querySelector(`input[name="${questionName}"][value="${data.correct}"]`).parentElement.textContent.trim();
+                explanationDiv.innerHTML = `<strong>⚠️ 未選択です。</strong> 正解は「${correctLabelText}」です。<br>${data.explanation}`;
+                explanationDiv.className = 'explanation wrong-ans';
+            }
+            explanationDiv.style.display = 'block';
+        });
+
+        alert(`答え合わせが完了しました！\n全 ${total} 問中、${score} 問 正解です。`);
+    });
+</script>
+
+</body>
+</html>
